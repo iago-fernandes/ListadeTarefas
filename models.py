@@ -1,4 +1,7 @@
-from app import db
+from app import db, app
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///todo.db'
+
 
 class Todo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
