@@ -2,7 +2,7 @@
 
 No projeto foi desenvolvida uma API construída em Flask para acesso a dados de uma lista de tarefas.
 
-O banco de dados utilizado foi o Sqlite, e a conexão foi gerenciada por meio do SQLAlchemy, um pacote de gerenciamento de banco da dados para Flask.
+Para armazenamento dos dados foi utilizado o Sqlite, com o SQLAlchemy para construção e conexão do banco de dados
 
 Em app.py, a aplicação montada e instanciada, assim como o banco de dados.
 
